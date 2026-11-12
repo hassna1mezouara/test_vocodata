@@ -1,0 +1,29 @@
+# Identifiants et secrets
+.env
+*.env
+secrets.py
+config_secrets.py
+
+# Donnees de test contenant de vrais comptes
+assets/*.xlsx
+!assets/*.example.xlsx
+
+# Pilote du navigateur (a telecharger separement)
+drivers/*.exe
+
+# Rapports generes
+rapport_tests.html
+rapport_tests/
+assets/report.html
+
+# Cache Python / Pytest
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environnements et fichiers systeme
+.venv/
+venv/
+.vscode/
+*.lnk
+Thumbs.db
